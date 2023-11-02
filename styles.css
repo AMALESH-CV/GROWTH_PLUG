@@ -1,0 +1,536 @@
+@import url('https://fonts.googleapis.com/css?family=Roboto');
+body {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+}
+
+.header {
+    background-color: #e5138b; 
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 5px;
+}
+
+.left-content-sec1 {
+    color: #ffffff; 
+    font-weight: bold;
+    margin-left: 28px;
+    font-size: 13px;
+}
+
+.right-content-sec1 {
+    display: flex;
+    gap: 10px;
+    font-size: 13px;
+    margin-right: 13px;
+}
+
+.contact-box-sec1 {
+    background-color: #00ff00; 
+    padding: 5px 10px;
+    border-radius: 5px;
+}
+
+.contact-box-sec1 p {
+    margin: 0;
+}
+
+
+
+.white-banner-sec2 {
+    background-color: #ffffff; 
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+}
+
+.left-section-sec2, .right-section-sec2 {
+    display: flex; 
+    align-items: center;
+    margin-left: 15px;
+    margin-right: 15px;
+}
+
+.logo {
+    text-align: center;
+}
+
+.pink-text-sec2 {
+    color: #e5138b; 
+    margin: 0;
+    margin-right: 77px; 
+    font-size: 20px; 
+    font-weight: bold;
+}
+
+
+
+.background-section-sec3 {
+    position: relative;
+    background-image: url('https://silversmiles.com/wp-content/uploads/2023/05/Dr.-Meagan-1024x555.jpg');
+    background-size: contain;
+    background-position: center center;
+    text-align: center;
+    padding: 100px 0;
+    height: 100%;
+    background-repeat: no-repeat;
+}
+
+.background-section-sec3::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    background-color: rgba(0, 0, 0, 0.258);
+}
+
+
+
+.bottom-text-sec3 {
+    display: flex;
+    justify-content: center;
+    font-size: 100px;
+}
+
+.square-boxes-sec3 {
+    display: flex;
+    justify-content: center;
+    margin: 20px 0;
+}
+
+.pink-background-sec3, .light-blue-background-sec3, .yellow-background-sec3 {
+    border-radius: 10px;
+    padding: 20px;
+    width: 150px;
+    box-shadow: 0 10px 20px rgba(247, 224, 224, 0.518);
+    margin: 0 10px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: transparent;
+    transition: background-color 0.3s ease;
+}
+
+.pink-background-sec3:hover, .light-blue-background-sec3:hover, .yellow-background-sec3:hover {
+    background-color: white;
+}
+
+
+.pink-background-sec3 {
+    background-color: #e5138b; 
+    width: 320px; 
+    height: 20px; 
+}
+
+.pink-background-sec3 p {
+    color: #ffffff; 
+    margin: 0;
+    padding: 0; 
+    vertical-align: middle; 
+}
+
+
+.light-blue-background-sec3 {
+    background-color: #0572ba; 
+    width: 320px; 
+    height: 20px; 
+}
+
+
+.light-blue-background-sec3 p {
+    color: #ffffff; 
+    margin: 0; 
+    padding: 0; 
+    vertical-align: middle; 
+}
+
+
+.yellow-background-sec3 {
+    background-color: #f5ee83; 
+    width: 160px; 
+    height: 20px; 
+   
+}
+
+.yellow-background-sec3 p {
+    color: #ffffff; 
+    margin: 0; 
+    padding: 0; 
+    vertical-align: middle; 
+}
+
+.social-media-icons {
+    display: flex;
+    flex-direction: column; 
+    justify-content: flex-end; 
+    align-items: flex-end; 
+    margin-top: 20px; 
+    
+}
+
+.social-media-icons i {
+    font-size: 28px; 
+    margin-bottom: 10px; 
+}
+
+
+
+.content-section-sec4 {
+    text-align: center;
+    padding: 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.left-content-sec4 {
+    display: flex;
+    flex-direction: column;
+    font-weight: bold;
+}
+
+.right-content-sec4 {
+    display: flex;
+    flex-direction: column;
+}
+
+.yellow-text-sec4 {
+    color: #f5ee83;
+    font-size: 18px;
+}
+
+.blue-text-sec4 {
+    color: #0572ba;
+    font-size: 35px;
+}
+
+.pink-text-sec4 {
+    color: #e5138b;
+    font-size: 35px;
+}
+
+.right-content-sec4 p {
+    font-size: 23px;
+    max-width: 80%; 
+    margin: 0 auto; 
+}
+
+
+
+.numbered-section-sec5 {
+    display: flex;
+    justify-content: space-between; 
+    align-items: center;
+    padding: 20px;
+}
+
+.left-content-sec5 {
+    display: flex;
+    flex-direction: column;
+}
+
+.numbered-item {
+    display: flex;
+    align-items: center;
+    margin-bottom: 10px;
+}
+
+.numbered-item p {
+    font-size: 20px;
+}
+
+.number-box-sec5 {
+    width: 30px;
+    height: 30px;
+    line-height: 30px;
+    text-align: center;
+    border-radius: 50% 0 0 50%;
+    margin-right: 10px;
+    background-color: #e5138b;
+}
+
+.number-box-sec5 p {
+    color: #ffffff;
+    font-weight: bold;
+    margin: 0;
+}
+
+.orange-bg-sec5 {
+    background-color: #ffa500;
+}
+
+.green-bg-sec5 {
+    background-color: #00ff00;
+}
+
+.right-content-sec5 {
+    display: flex;
+    flex-direction: column;
+}
+
+.pink-box-sec5 {
+     background-color: #e5138b; 
+    padding: 10px;
+    border-radius: 20px; 
+    color: #ffffff; 
+    font-weight: bold;
+    margin: 0;
+    margin-right: 200px; 
+}
+
+
+
+
+.image-container {
+    display: flex;
+    justify-content: flex-start; 
+    padding: 20px; 
+    width: 100%;
+    overflow: hidden; 
+    position: relative; 
+}
+
+.image-container img {
+    width: 30%; 
+    height: auto; 
+    border-radius: 15px;
+    position: relative; 
+}
+
+.image-container img:nth-child(1) {
+    margin-left: 0; 
+}
+
+.image-container img:nth-child(2) {
+    margin-left: 20px; 
+    top: -20px; 
+}
+
+.image-container img:nth-child(3) {
+    margin-left: 40px; 
+    top: -40px; 
+}
+
+
+
+
+.service-section {
+    text-align: center;
+    margin: 0 120px; 
+}
+
+h2 {
+    font-size: 24px;
+    margin-bottom: 20px; 
+    color: gold; 
+}
+
+.image-grid {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: repeat(3, 1fr); 
+    grid-gap: 10px; 
+    position: relative; 
+}
+
+.image-container-2 {
+    width: 90%; 
+    height: 90%; 
+    border-radius: 15px; 
+    overflow: hidden; 
+    position: relative; 
+}
+
+.image-container-2 img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover; 
+    border-radius: 15px;
+}
+
+.image-text {
+    position: absolute; 
+    top: 50px; 
+    left: 10px; 
+    color: white; 
+    background-color: rgba(0, 0, 0, 0.5); 
+    padding: 5px; 
+    border-radius: 5px; 
+    font-size: 16px; 
+}
+
+
+.image-container-2:nth-child(1) .image-text {
+    background-color: rgba(0, 0, 0, 0.5); 
+}
+
+.image-container-2:nth-child(2) .image-text {
+    background-color: rgba(0, 0, 0, 0.5); 
+}
+
+
+
+
+.profile-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: white;
+    border: 2px solid orange;
+    border-radius: 10px;
+    padding: 20px;
+    margin: 20px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.profile-image-container {
+    position: relative;
+}
+
+.profile-image-rectangular {
+    background-color: orange;
+    text-align: center;
+    border: 2px solid orange;
+    padding: 10px;
+}
+
+.profile-image-rectangular img {
+    max-width: 200px;
+    height: auto;
+    display: block;
+    border-radius: 5px;
+}
+
+.name-bg {
+    background-color: orange;
+    text-align: center;
+    padding: 5px 0;
+}
+
+.profile-name {
+    color: white;
+    font-weight: bold;
+    font-size: 18px;
+    margin: 0;
+}
+
+.profile-info {
+    flex-grow: 1;
+    padding: 20px;
+}
+
+
+
+
+.text-section-sec6 {
+    text-align: center;
+    padding: 20px;
+    background-color: #e5138b;
+}
+
+.pink-bg-sec6 {
+    
+    display: inline-block;
+    padding: 10px;
+    border-radius: 5px;
+}
+
+.sky-blue-text-sec6 {
+    color: #69b5e7; 
+    font-size: 18px;
+    margin: 0;
+}
+
+.white-text-sec6 {
+    color: #ffffff; 
+    font-size: 25px;
+    margin: 0;
+}
+
+
+
+.yellow-text-sec6 {
+    color: #ffff00; 
+    font-size: 25px;
+}
+
+.pink-rectangle-sec6 {
+    background-color: #d840d3; 
+    display: inline-block;
+    padding: 10px;
+    border-radius: 10px; 
+}
+
+
+
+.instagram-section {
+    text-align: center;
+    padding: 20px;
+}
+
+h2 {
+    font-size: 24px;
+    margin-bottom: 20px;
+}
+
+.instagram-grid {
+    display: grid;
+    grid-template-columns: repeat(5, 1fr); 
+    grid-template-rows: 2; 
+    grid-gap: 20px; 
+}
+
+.instagram-image {
+    width: 100%;
+    height: 100%;
+    border-radius: 10px; 
+    overflow: hidden; 
+}
+
+.instagram-image img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover; 
+}
+
+
+
+.review-section {
+    background: url('background-image.jpg') no-repeat center center;
+    background-size: cover;
+    text-align: center;
+    color: #ffffff;
+    padding: 40px;
+}
+
+.review-bg h2 {
+    font-size: 24px;
+    margin-bottom: 20px;
+}
+
+.review-content {
+    background: rgba(0, 0, 0, 0.5); 
+    padding: 20px;
+    border-radius: 10px;
+    max-width: 500px;
+    margin: 0 auto;
+}
+
+.review-text {
+    font-size: 18px;
+}
+
+.review-name {
+    font-size: 16px;
+    margin-top: 10px;
+}
+
+h3 {
+    font-size: 30px;
+    margin-bottom: 20px;
+}
